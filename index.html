@@ -2,35 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Profile card component</title>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <div class="container">
+    <div class="bg-holder"></div>
+    <div class="main-content">
 
-  80K
-  Followers
+      <img src="images/image-victor.jpg" alt="profile-pic">
 
-  803K
-  Likes
+      <div class="personal-details">
+        <div class="name-age">
+          <p class="name">Victor Crest</p>
+          <p class="age">26</p>
+        </div>
+        <p class="country">London</p>
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="stats">
+        <div class="one">
+          <p class="rank">80K</p>
+          <p class="rank-name">Followers</p>
+        </div>
+        <div class="two">
+          <p class="rank">803K</p>
+          <p class="rank-name">Likes</p>
+        </div>
+        <div class="three">
+          <p class="rank">1.4K</p>
+          <p class="rank-name">Photos</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
