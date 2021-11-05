@@ -27,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/time-tracking-dashboard-using-htmlcss-js-asyncawait-and-transition-d1kL5GKaT)
-- [Live Site URL](https://mohsin316.github.io/Time-tracking-dashboard/)
+- [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-with-clean-html-and-css-TYkT-t-2x)
+- [Live Site URL](https://mohsin316.github.io/profile-card-component-main/)
 
 ## My process
 
