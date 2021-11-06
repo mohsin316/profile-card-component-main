@@ -90,7 +90,7 @@ img{
     padding-block: 1.5rem 1.25rem;
     display: flex;
     justify-content: space-evenly;
-    border-top: 1px solid hsla(0, 0%, 59%, .25); /*this si just Dgray but in hsla. to control opacity of border*/
+    border-top: 1px solid hsla(0, 0%, 59%, .25); /*this is just Dgray but in hsla. to control opacity of border*/
 }
 .two{
     margin-right: 1.15rem;
@@ -109,7 +109,7 @@ img{
     padding-top: .35rem;
     color: var(--Dgrey);
     letter-spacing: .1rem;
-    font-size: .6rem;
+    font-size: .85rem;
 }
 
 @media (min-width:500px){
